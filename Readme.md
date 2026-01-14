@@ -41,7 +41,7 @@ RUNNING THE REPL
 
 Start the database REPL:
 
-python -m rdbms.repl
+python -m rdbms.repl 
 
 Example commands:
 
@@ -61,7 +61,8 @@ RUNNING THE FLASK WEB APP
 
 Start the web application:
 
-python web/app.py
+python -m web.app
+
 
 Available endpoints:
 
