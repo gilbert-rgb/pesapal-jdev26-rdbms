@@ -21,16 +21,16 @@ FEATURES
 INSTALLATION
 
 1. Clone the repository
-
+``` bash
 git clone https://github.com/gilbert-rgb/pesapal-jdev26-rdbms
 cd pesapal-jdev26-rdbms
-
+```
 2. Install dependencies and activate environment
-
+```bash
 pip install pipenv
 pipenv install
 pipenv shell
-
+```
 Requirements:
 - Python 3.10 or higher
 - Flask
@@ -40,7 +40,7 @@ Requirements:
 RUNNING THE REPL
 
 Start the database REPL:
-
+```bash
 python -m rdbms.repl 
 
 Example commands:
@@ -50,7 +50,7 @@ INSERT INTO users VALUES (1, "Gilbert", "gilbert@gmail.com");
 SELECT * FROM users;
 UPDATE users SET name="Cheboi" WHERE id=1;
 DELETE FROM users WHERE id=1;
-
+```
 Type:
 exit
 to quit the REPL.
@@ -60,7 +60,7 @@ to quit the REPL.
 RUNNING THE FLASK WEB APP
 
 Start the web application:
-
+```bash
 python -m web.app
 
 
@@ -81,7 +81,7 @@ Example JSON body:
 }
 
 --------------------------------------------------
-
+```
 AUTHOR
 
 Gilbert Cheboi
