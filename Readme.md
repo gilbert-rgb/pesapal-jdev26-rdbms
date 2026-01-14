@@ -15,27 +15,27 @@ It supports:
 
 ---
 
----
 
-## Installation
+
+### Installation
 
 1. Clone the repository:
 
-```bash
-git clone <your-github-repo-url>
+
+git clone <https://github.com/gilbert-rgb/pesapal-jdev26-rdbms>
 cd pesapal-jdev26-rdbms
 
-2.Activate the virtual environment and install dependencies:
+2. Activate the virtual environment and install dependencies:
 
 pip install pipenv
 pipenv install
 pipenv shell
 
-Technology used:
+#### Technology used:
 
 Requires Python 3.10+ and Flask.
 
-Running the REPL
+##### Running the REPL
 
 The REPL allows you to interact with the database using SQL-like commands.
 
@@ -50,7 +50,7 @@ DELETE FROM users WHERE id=1;
 
  Type exit to quit the REPL.
 
- Running the Flask Web App
+ ###### Running the Flask Web App
 
  The Flask app demonstrates CRUD operations via HTTP requests:
 
@@ -63,7 +63,7 @@ GET /users → Returns all users
 
 POST /users → Add a new user (JSON body example: {"id": 1, "name": "Gilbert", "email": "gilbert@gmail.com"})
 
-AUTHOR
+ ###### AUTHOR
 Gilbert Cheboi
 Email: icheboigilbert@gmail.com
 Tell NO: +254743143013
@@ -71,7 +71,7 @@ GitHub: gilbert-rgb
 
 ---
 
-## License
+###### License
 
 This project is licensed under the **MIT License**.  
 
