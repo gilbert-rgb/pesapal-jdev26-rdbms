@@ -6,7 +6,7 @@ It demonstrates core database concepts including table creation, constraints, CR
 
 --------------------------------------------------
 
-FEATURES
+## FEATURES
 
 - Create tables with column types (INT, TEXT)
 - Primary key and unique constraints
@@ -18,7 +18,7 @@ FEATURES
 
 --------------------------------------------------
 
-INSTALLATION
+## INSTALLATION
 
 1. Clone the repository
 ``` bash
@@ -62,10 +62,10 @@ RUNNING THE FLASK WEB APP
 Start the web application:
 ```bash
 python -m web.app
-
+```
 
 Available endpoints:
-
+```bash
 GET /users
 Returns all users
 
@@ -82,7 +82,7 @@ Example JSON body:
 
 --------------------------------------------------
 ```
-AUTHOR
+## AUTHOR
 
 Gilbert Cheboi
 Email: icheboigilbert@gmail.com
@@ -91,7 +91,7 @@ GitHub: https://github.com/gilbert-rgb
 
 --------------------------------------------------
 
-LICENSE
+## LICENSE
 
 This project is licensed under the MIT License.
 See the LICENSE file for details.
